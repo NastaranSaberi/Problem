@@ -1,0 +1,144 @@
+.web_name{
+    color: #5f6368;
+    font-size: 22px;
+    line-height: 24px;
+    padding-left: 4px;
+    position: relative;
+    top: 2.5px;
+}
+
+.menu_hamburgers{
+    width: 20px;
+    height: 20px;
+    color: #5f6368;
+    border-radius: 50%;
+    margin: 0 4px;
+    padding: 12px;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -webkit-flex: 0 0 auto;
+    flex: 0 0 auto;
+}
+
+.navbar{
+    border-bottom: solid 1px lightgray;
+    height: 64px !important;
+}
+
+.search{
+    background: #f1f3f4;
+    width: 716px;
+    height: 48px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    margin-top: 16px;
+    margin-left: 68px;
+}
+
+.icon_search{
+    position: absolute;
+    top: 22px;
+    left: 263px;
+    border: none;
+    color: #5c636a;
+}
+
+.icon{
+    width: 20px !important;
+    height: 20px !important;
+    opacity: 0.54;
+    margin-left: 10px;
+}
+
+.div_icons{
+    position: absolute;
+    right: 153px;
+}
+
+.button_icon{
+    border: none;
+    background-color: white;
+}
+
+.icon_apps{
+    opacity: 0.54;
+    margin-top: -22px;
+}
+
+.button_user{
+    width: 32px;
+    height: 32px;
+    border: none;
+    border-radius: 50px;
+    background-color: #708090;
+    margin-top: 4px;
+    margin-left: 15px;
+    margin-right: 8px;
+}
+
+svg{
+    fill: #5f6368;
+}
+
+li{
+    width: 280px;
+    height: 42px;
+
+}
+
+.list-group-item{
+    border: none;
+    margin-top: 10px;
+    letter-spacing: .01785714em;
+    font-size: .875rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+    color: #202124;
+}
+
+.menu_items{
+    margin-left: 23px;
+}
+
+.notes{
+    width: 598px;
+    height: 46px;
+    padding: 11px 16px 12px 16px;
+    box-shadow: inset 1px 1px 0 rgb(0 0 0 / 10%), inset 0 -1px 0 rgb(0 0 0 / 7%);
+    border: none;
+    margin-top: 30px;
+    margin-left: 110px;
+    border-radius: 20px;
+}
+.d{
+display: block;
+margin-bottom: 10px;
+border: none;
+height: auto;
+margin-right: 8px;
+}
+
+
+.form-control{
+    background: #f1f3f4;
+}
+.header__center {
+font-size: 2rem;
+display: grid;
+grid-template-columns: 1fr max-content 1fr;
+grid-column-gap: 1.2rem;
+align-items: center;
+}
+
+.header__center::before,
+.header__center::after {
+content: "";
+display: block;
+height: 1px;
+background-color: currentColor;
+}
+
+
+
+
